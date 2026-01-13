@@ -1,0 +1,144 @@
+; Copyright © Microsoft Corp.
+
+[Theme]
+; Windows - IDS_THEME_DISPLAYNAME_AERO
+DisplayName=Nature
+ThemeId={A835209E-4ADA-44BE-ACC6-36395CD7D5B8}
+
+; Computer - SHIDI_SERVER
+[CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\DefaultIcon]
+DefaultValue=%SystemRoot%\Resources\Themes\nature\nature.dll,1
+
+; UsersFiles - SHIDI_USERFILES
+[CLSID\{59031A47-3F72-44A7-89C5-5595FE6B30EE}\DefaultIcon]
+DefaultValue=%SystemRoot%\Resources\Themes\nature\nature.dll,0
+
+; Network - SHIDI_MYNETWORK
+[CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\DefaultIcon]
+DefaultValue=%SystemRoot%\Resources\Themes\nature\nature.dll,2
+
+; Recycle Bin - SHIDI_RECYCLERFULL SHIDI_RECYCLER
+[CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\DefaultIcon]
+Full=%SystemRoot%\Resources\Themes\nature\nature.dll,4
+Empty=%SystemRoot%\Resources\Themes\nature\nature.dll,3
+
+[Control Panel\Cursors]
+AppStarting=%SystemRoot%\Resources\Themes\nature\Working in Background.ani
+Arrow=%SystemRoot%\Resources\Themes\nature\Normal Select.cur
+Crosshair=%SystemRoot%\Resources\Themes\nature\Precision Select.cur
+Hand=
+Help=%SystemRoot%\Resources\Themes\nature\Help Select.cur
+IBeam=%SystemRoot%\Resources\Themes\nature\Text Select.cur
+No=%SystemRoot%\Resources\Themes\nature\Unavailable.cur
+NWPen=%SystemRoot%\Resources\Themes\nature\Handwriting.cur
+SizeAll=%SystemRoot%\Resources\Themes\nature\Move.cur
+SizeNESW=%SystemRoot%\Resources\Themes\nature\Diagonal Resize 2.cur
+SizeNS=%SystemRoot%\Resources\Themes\nature\Vertical Resize.cur
+SizeNWSE=%SystemRoot%\Resources\Themes\nature\Diagonal Resize 1.cur
+SizeWE=%SystemRoot%\Resources\Themes\nature\Horizontal Resize.cur
+UpArrow=%SystemRoot%\Resources\Themes\nature\Alternate Select.cur
+Wait=%SystemRoot%\Resources\Themes\nature\Busy.ani
+DefaultValue=Nature
+
+[Control Panel\Desktop]
+Wallpaper=%SystemRoot%\Resources\Themes\nature\Wallpaper.jpg
+Pattern=
+MultimonBackgrounds=0
+PicturePosition=2
+WallpaperWriteTime=128836430800000000
+WindowsSpotlight=0
+
+[VisualStyles]
+Path=%SystemRoot%\resources\themes\Aero\Aero.msstyles
+ColorStyle=NormalColor
+Size=NormalSize
+AutoColorization=0
+ColorizationColor=0XC40078D7
+SystemMode=Dark
+AppMode=Light
+VisualStyleVersion=10
+
+[boot]
+SCRNSAVE.EXE=
+
+[MasterThemeSelector]
+MTSM=RJSPBS
+
+[Sounds]
+; IDS_SCHEME_DEFAULT
+SchemeName=Nature
+
+[AppEvents\Schemes\Apps\.Default\.Default]
+DefaultValue=%SystemRoot%\Resources\Themes\nature\default sound.wav
+[AppEvents\Schemes\Apps\.Default\AppGPFault]
+DefaultValue=%SystemRoot%\Resources\Themes\nature\program error.wav
+[AppEvents\Schemes\Apps\.Default\CriticalBatteryAlarm]
+DefaultValue=%SystemRoot%\Resources\Themes\nature\critical battery alarm.WAV
+[AppEvents\Schemes\Apps\.Default\DeviceConnect]
+DefaultValue=%SystemRoot%\Resources\Themes\nature\device connect.wav
+[AppEvents\Schemes\Apps\.Default\DeviceDisconnect]
+DefaultValue=%SystemRoot%\Resources\Themes\nature\device disconnect.wav
+[AppEvents\Schemes\Apps\.Default\DeviceFail]
+DefaultValue=%SystemRoot%\Resources\Themes\nature\device failed to connect.wav
+[AppEvents\Schemes\Apps\.Default\FaxBeep]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\LowBatteryAlarm]
+DefaultValue=%SystemRoot%\Resources\Themes\nature\low battery alarm.WAV
+[AppEvents\Schemes\Apps\.Default\MailBeep]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\Maximize]
+DefaultValue=%SystemRoot%\Resources\Themes\nature\maximize.wav
+[AppEvents\Schemes\Apps\.Default\MenuCommand]
+DefaultValue=%SystemRoot%\Resources\Themes\nature\menu command.wav
+[AppEvents\Schemes\Apps\.Default\MenuPopup]
+DefaultValue=%SystemRoot%\Resources\Themes\nature\menu popup.wav
+[AppEvents\Schemes\Apps\.Default\MessageNudge]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\Minimize]
+DefaultValue=%SystemRoot%\Resources\Themes\nature\minimize.wav
+[AppEvents\Schemes\Apps\.Default\Notification.Default]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\Notification.IM]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\Notification.Mail]
+DefaultValue=%SystemRoot%\Resources\Themes\nature\new mail notificatioon.WAV
+[AppEvents\Schemes\Apps\.Default\Notification.Proximity]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\Notification.Reminder]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\Notification.SMS]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\ProximityConnection]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\RestoreDown]
+DefaultValue=%SystemRoot%\Resources\Themes\nature\restore down.wav
+[AppEvents\Schemes\Apps\.Default\RestoreUp]
+DefaultValue=%SystemRoot%\Resources\Themes\nature\restore up.wav
+[AppEvents\Schemes\Apps\.Default\SystemAsterisk]
+DefaultValue=%SystemRoot%\Resources\Themes\nature\asterisk.wav
+[AppEvents\Schemes\Apps\.Default\SystemExclamation]
+DefaultValue=%SystemRoot%\Resources\Themes\nature\exclamation.wav
+[AppEvents\Schemes\Apps\.Default\SystemHand]
+DefaultValue=%SystemRoot%\Resources\Themes\nature\critical stop.wav
+[AppEvents\Schemes\Apps\.Default\SystemNotification]
+DefaultValue=%SystemRoot%\Resources\Themes\nature\system default.wav
+[AppEvents\Schemes\Apps\.Default\SystemQuestion]
+DefaultValue=%SystemRoot%\Resources\Themes\nature\question.wav
+[AppEvents\Schemes\Apps\.Default\WindowsUAC]
+DefaultValue=
+[AppEvents\Schemes\Apps\Explorer\EmptyRecycleBin]
+DefaultValue=%SystemRoot%\Resources\Themes\nature\empty recycle bin.wav
+[AppEvents\Schemes\Apps\Explorer\Navigating]
+DefaultValue=%SystemRoot%\Resources\Themes\nature\start navigation.WAV
+[AppEvents\Schemes\Apps\sapisvr\DisNumbersSound]
+DefaultValue=%SystemRoot%\Resources\Themes\nature\disambiguation numbers.wav
+[AppEvents\Schemes\Apps\sapisvr\HubOffSound]
+DefaultValue=%SystemRoot%\Resources\Themes\nature\off.wav
+[AppEvents\Schemes\Apps\sapisvr\HubOnSound]
+DefaultValue=%SystemRoot%\Resources\Themes\nature\on.wav
+[AppEvents\Schemes\Apps\sapisvr\HubSleepSound]
+DefaultValue=%SystemRoot%\Resources\Themes\nature\sleep.wav
+[AppEvents\Schemes\Apps\sapisvr\MisrecoSound]
+DefaultValue=%SystemRoot%\Resources\Themes\nature\misrecognition.wav
+[AppEvents\Schemes\Apps\sapisvr\PanelSound]
+DefaultValue=%SystemRoot%\Resources\Themes\nature\disambiguation panel.wav

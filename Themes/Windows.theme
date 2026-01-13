@@ -1,0 +1,144 @@
+; Copyright © Microsoft Corp.
+
+[Theme]
+; Windows - IDS_THEME_DISPLAYNAME_AERO
+DisplayName=Windows
+ThemeId={E9172D10-1C9B-4EC0-810F-5B831229BFC9}
+
+; Computer - SHIDI_SERVER
+[CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\DefaultIcon]
+DefaultValue=%SystemRoot%\Resources\Themes\windows\windows.dll,1
+
+; UsersFiles - SHIDI_USERFILES
+[CLSID\{59031A47-3F72-44A7-89C5-5595FE6B30EE}\DefaultIcon]
+DefaultValue=%SystemRoot%\Resources\Themes\windows\windows.dll,0
+
+; Network - SHIDI_MYNETWORK
+[CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\DefaultIcon]
+DefaultValue=%SystemRoot%\Resources\Themes\windows\windows.dll,2
+
+; Recycle Bin - SHIDI_RECYCLERFULL SHIDI_RECYCLER
+[CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\DefaultIcon]
+Full=%SystemRoot%\Resources\Themes\windows\windows.dll,4
+Empty=%SystemRoot%\Resources\Themes\windows\windows.dll,3
+
+[Control Panel\Cursors]
+AppStarting=%SystemRoot%\Resources\Themes\windows\Working in Background.ani
+Arrow=%SystemRoot%\Resources\Themes\windows\Normal Select.cur
+Crosshair=%SystemRoot%\Resources\Themes\windows\Precision Select.cur
+Hand=
+Help=%SystemRoot%\Resources\Themes\windows\Help Select.cur
+IBeam=%SystemRoot%\Resources\Themes\windows\Text Select.cur
+No=%SystemRoot%\Resources\Themes\windows\Unavailable.cur
+NWPen=%SystemRoot%\Resources\Themes\windows\Handwriting.cur
+SizeAll=%SystemRoot%\Resources\Themes\windows\Move.cur
+SizeNESW=%SystemRoot%\Resources\Themes\windows\Diagonal Resize 2.cur
+SizeNS=%SystemRoot%\Resources\Themes\windows\Vertical Resize.cur
+SizeNWSE=%SystemRoot%\Resources\Themes\windows\Diagonal Resize 1.cur
+SizeWE=%SystemRoot%\Resources\Themes\windows\Horizontal Resize.cur
+UpArrow=%SystemRoot%\Resources\Themes\windows\Alternate Select.cur
+Wait=%SystemRoot%\Resources\Themes\windows\Busy.ani
+DefaultValue=Windows
+
+[Control Panel\Desktop]
+Wallpaper=%SystemRoot%\Resources\Themes\windows\Wallpaper.jpg
+Pattern=
+MultimonBackgrounds=0
+PicturePosition=2
+WallpaperWriteTime=128836430980000000
+WindowsSpotlight=0
+
+[VisualStyles]
+Path=%SystemRoot%\resources\themes\Aero\Aero.msstyles
+ColorStyle=NormalColor
+Size=NormalSize
+AutoColorization=0
+ColorizationColor=0XC40078D7
+SystemMode=Dark
+AppMode=Light
+VisualStyleVersion=10
+
+[boot]
+SCRNSAVE.EXE=
+
+[MasterThemeSelector]
+MTSM=RJSPBS
+
+[Sounds]
+; IDS_SCHEME_DEFAULT
+SchemeName=Windows
+
+[AppEvents\Schemes\Apps\.Default\.Default]
+DefaultValue=%SystemRoot%\Resources\Themes\windows\default sound.wav
+[AppEvents\Schemes\Apps\.Default\AppGPFault]
+DefaultValue=%SystemRoot%\Resources\Themes\windows\program error.wav
+[AppEvents\Schemes\Apps\.Default\CriticalBatteryAlarm]
+DefaultValue=%SystemRoot%\Resources\Themes\windows\critical battery alarm.WAV
+[AppEvents\Schemes\Apps\.Default\DeviceConnect]
+DefaultValue=%SystemRoot%\Resources\Themes\windows\device connect.wav
+[AppEvents\Schemes\Apps\.Default\DeviceDisconnect]
+DefaultValue=%SystemRoot%\Resources\Themes\windows\device disconnect.wav
+[AppEvents\Schemes\Apps\.Default\DeviceFail]
+DefaultValue=%SystemRoot%\Resources\Themes\windows\device failed to connect.wav
+[AppEvents\Schemes\Apps\.Default\FaxBeep]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\LowBatteryAlarm]
+DefaultValue=%SystemRoot%\Resources\Themes\windows\low battery alarm.WAV
+[AppEvents\Schemes\Apps\.Default\MailBeep]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\Maximize]
+DefaultValue=%SystemRoot%\Resources\Themes\windows\maximize.wav
+[AppEvents\Schemes\Apps\.Default\MenuCommand]
+DefaultValue=%SystemRoot%\Resources\Themes\windows\menu command.wav
+[AppEvents\Schemes\Apps\.Default\MenuPopup]
+DefaultValue=%SystemRoot%\Resources\Themes\windows\menu popup.wav
+[AppEvents\Schemes\Apps\.Default\MessageNudge]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\Minimize]
+DefaultValue=%SystemRoot%\Resources\Themes\windows\minimize.wav
+[AppEvents\Schemes\Apps\.Default\Notification.Default]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\Notification.IM]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\Notification.Mail]
+DefaultValue=%SystemRoot%\Resources\Themes\windows\new mail notificatioon.WAV
+[AppEvents\Schemes\Apps\.Default\Notification.Proximity]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\Notification.Reminder]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\Notification.SMS]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\ProximityConnection]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\RestoreDown]
+DefaultValue=%SystemRoot%\Resources\Themes\windows\restore down.wav
+[AppEvents\Schemes\Apps\.Default\RestoreUp]
+DefaultValue=%SystemRoot%\Resources\Themes\windows\restore up.wav
+[AppEvents\Schemes\Apps\.Default\SystemAsterisk]
+DefaultValue=%SystemRoot%\Resources\Themes\windows\asterisk.wav
+[AppEvents\Schemes\Apps\.Default\SystemExclamation]
+DefaultValue=%SystemRoot%\Resources\Themes\windows\exclamation.wav
+[AppEvents\Schemes\Apps\.Default\SystemHand]
+DefaultValue=%SystemRoot%\Resources\Themes\windows\critical stop.wav
+[AppEvents\Schemes\Apps\.Default\SystemNotification]
+DefaultValue=%SystemRoot%\Resources\Themes\windows\system default.wav
+[AppEvents\Schemes\Apps\.Default\SystemQuestion]
+DefaultValue=%SystemRoot%\Resources\Themes\windows\question.wav
+[AppEvents\Schemes\Apps\.Default\WindowsUAC]
+DefaultValue=
+[AppEvents\Schemes\Apps\Explorer\EmptyRecycleBin]
+DefaultValue=%SystemRoot%\Resources\Themes\windows\empty recycle bin.wav
+[AppEvents\Schemes\Apps\Explorer\Navigating]
+DefaultValue=%SystemRoot%\Resources\Themes\windows\start navigation.WAV
+[AppEvents\Schemes\Apps\sapisvr\DisNumbersSound]
+DefaultValue=%SystemRoot%\Resources\Themes\windows\disambiguation numbers.wav
+[AppEvents\Schemes\Apps\sapisvr\HubOffSound]
+DefaultValue=%SystemRoot%\Resources\Themes\windows\off.wav
+[AppEvents\Schemes\Apps\sapisvr\HubOnSound]
+DefaultValue=%SystemRoot%\Resources\Themes\windows\on.wav
+[AppEvents\Schemes\Apps\sapisvr\HubSleepSound]
+DefaultValue=%SystemRoot%\Resources\Themes\windows\sleep.wav
+[AppEvents\Schemes\Apps\sapisvr\MisrecoSound]
+DefaultValue=%SystemRoot%\Resources\Themes\windows\misrecognition.wav
+[AppEvents\Schemes\Apps\sapisvr\PanelSound]
+DefaultValue=%SystemRoot%\Resources\Themes\windows\disambiguation panel.wav

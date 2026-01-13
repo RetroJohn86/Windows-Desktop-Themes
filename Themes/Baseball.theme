@@ -1,0 +1,148 @@
+; Copyright © Microsoft Corp.
+
+[Theme]
+; Windows - IDS_THEME_DISPLAYNAME_AERO
+DisplayName=Baseball
+ThemeId={4A1BA604-5A1C-4835-A80B-0510E72826F8}
+
+; Computer - SHIDI_SERVER
+[CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\DefaultIcon]
+DefaultValue=%SystemRoot%\Resources\Themes\baseball\baseball.dll,1
+
+; UsersFiles - SHIDI_USERFILES
+[CLSID\{59031A47-3F72-44A7-89C5-5595FE6B30EE}\DefaultIcon]
+DefaultValue=%SystemRoot%\Resources\Themes\baseball\baseball.dll,0
+
+; Network - SHIDI_MYNETWORK
+[CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\DefaultIcon]
+DefaultValue=%SystemRoot%\Resources\Themes\baseball\baseball.dll,2
+
+; Recycle Bin - SHIDI_RECYCLERFULL SHIDI_RECYCLER
+[CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\DefaultIcon]
+Full=%SystemRoot%\Resources\Themes\baseball\baseball.dll,4
+Empty=%SystemRoot%\Resources\Themes\baseball\Recycle Bin Empty.ico
+
+[Control Panel\Cursors]
+AppStarting=%SystemRoot%\Resources\Themes\baseball\Working in Background.ani
+Arrow=%SystemRoot%\Resources\Themes\baseball\Normal Select.cur
+Crosshair=%SystemRoot%\Resources\Themes\baseball\Precision Select.cur
+Hand=
+Help=%SystemRoot%\Resources\Themes\baseball\Help Select.cur
+IBeam=%SystemRoot%\Resources\Themes\baseball\Text Select.cur
+No=%SystemRoot%\Resources\Themes\baseball\Unavailable.cur
+NWPen=%SystemRoot%\Resources\Themes\baseball\Handwriting.cur
+SizeAll=%SystemRoot%\Resources\Themes\baseball\Move.cur
+SizeNESW=%SystemRoot%\Resources\Themes\baseball\Diagonal Resize 2.cur
+SizeNS=%SystemRoot%\Resources\Themes\baseball\Vertical Resize.cur
+SizeNWSE=%SystemRoot%\Resources\Themes\baseball\Diagonal Resize 1.cur
+SizeWE=%SystemRoot%\Resources\Themes\baseball\Horizontal Resize.cur
+UpArrow=%SystemRoot%\Resources\Themes\baseball\Alternate Select.cur
+Wait=%SystemRoot%\Resources\Themes\baseball\Busy.ani
+DefaultValue=Baseball
+
+[Control Panel\Desktop]
+Wallpaper=%SystemRoot%\Resources\Themes\baseball\Wallpaper.jpg
+Pattern=
+MultimonBackgrounds=0
+PicturePosition=2
+WallpaperWriteTime=128836430680000000
+WindowsSpotlight=0
+
+[VisualStyles]
+Path=%SystemRoot%\resources\themes\Aero\Aero.msstyles
+ColorStyle=NormalColor
+Size=NormalSize
+AutoColorization=0
+ColorizationColor=0XC40078D7
+SystemMode=Dark
+AppMode=Light
+VisualStyleVersion=10
+
+[boot]
+SCRNSAVE.EXE=
+
+[MasterThemeSelector]
+MTSM=RJSPBS
+
+[Sounds]
+; IDS_SCHEME_DEFAULT
+SchemeName=Baseball
+
+[AppEvents\Schemes\Apps\.Default\.Default]
+DefaultValue=%SystemRoot%\Resources\Themes\baseball\default sound.wav
+[AppEvents\Schemes\Apps\.Default\AppGPFault]
+DefaultValue=%SystemRoot%\Resources\Themes\baseball\program error.wav
+[AppEvents\Schemes\Apps\.Default\Close]
+DefaultValue=%SystemRoot%\Resources\Themes\baseball\close program.wav
+[AppEvents\Schemes\Apps\.Default\CriticalBatteryAlarm]
+DefaultValue=%SystemRoot%\Resources\Themes\baseball\critical battery alarm.WAV
+[AppEvents\Schemes\Apps\.Default\DeviceConnect]
+DefaultValue=%SystemRoot%\Resources\Themes\baseball\device connect.wav
+[AppEvents\Schemes\Apps\.Default\DeviceDisconnect]
+DefaultValue=%SystemRoot%\Resources\Themes\baseball\device disconnect.wav
+[AppEvents\Schemes\Apps\.Default\DeviceFail]
+DefaultValue=%SystemRoot%\Resources\Themes\baseball\device failed to connect.wav
+[AppEvents\Schemes\Apps\.Default\FaxBeep]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\LowBatteryAlarm]
+DefaultValue=%SystemRoot%\Resources\Themes\baseball\low battery alarm.WAV
+[AppEvents\Schemes\Apps\.Default\MailBeep]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\Maximize]
+DefaultValue=%SystemRoot%\Resources\Themes\baseball\maximize.wav
+[AppEvents\Schemes\Apps\.Default\MenuCommand]
+DefaultValue=%SystemRoot%\Resources\Themes\baseball\menu command.wav
+[AppEvents\Schemes\Apps\.Default\MenuPopup]
+DefaultValue=%SystemRoot%\Resources\Themes\baseball\menu popup.wav
+[AppEvents\Schemes\Apps\.Default\MessageNudge]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\Minimize]
+DefaultValue=%SystemRoot%\Resources\Themes\baseball\minimize.wav
+[AppEvents\Schemes\Apps\.Default\Notification.Default]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\Notification.IM]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\Notification.Mail]
+DefaultValue=%SystemRoot%\Resources\Themes\baseball\new mail notificatioon.WAV
+[AppEvents\Schemes\Apps\.Default\Notification.Proximity]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\Notification.Reminder]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\Notification.SMS]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\Open]
+DefaultValue=%SystemRoot%\Resources\Themes\baseball\open program.wav
+[AppEvents\Schemes\Apps\.Default\ProximityConnection]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\RestoreDown]
+DefaultValue=%SystemRoot%\Resources\Themes\baseball\restore down.wav
+[AppEvents\Schemes\Apps\.Default\RestoreUp]
+DefaultValue=%SystemRoot%\Resources\Themes\baseball\restore up.wav
+[AppEvents\Schemes\Apps\.Default\SystemAsterisk]
+DefaultValue=%SystemRoot%\Resources\Themes\baseball\asterisk.wav
+[AppEvents\Schemes\Apps\.Default\SystemExclamation]
+DefaultValue=%SystemRoot%\Resources\Themes\baseball\exclamation.wav
+[AppEvents\Schemes\Apps\.Default\SystemHand]
+DefaultValue=%SystemRoot%\Resources\Themes\baseball\critical stop.wav
+[AppEvents\Schemes\Apps\.Default\SystemNotification]
+DefaultValue=%SystemRoot%\Resources\Themes\baseball\system default.wav
+[AppEvents\Schemes\Apps\.Default\SystemQuestion]
+DefaultValue=%SystemRoot%\Resources\Themes\baseball\question.wav
+[AppEvents\Schemes\Apps\.Default\WindowsUAC]
+DefaultValue=
+[AppEvents\Schemes\Apps\Explorer\EmptyRecycleBin]
+DefaultValue=%SystemRoot%\Resources\Themes\baseball\empty recycle bin.wav
+[AppEvents\Schemes\Apps\Explorer\Navigating]
+DefaultValue=%SystemRoot%\Resources\Themes\baseball\start navigation.WAV
+[AppEvents\Schemes\Apps\sapisvr\DisNumbersSound]
+DefaultValue=%SystemRoot%\Resources\Themes\baseball\disambiguation numbers.wav
+[AppEvents\Schemes\Apps\sapisvr\HubOffSound]
+DefaultValue=%SystemRoot%\Resources\Themes\baseball\off.wav
+[AppEvents\Schemes\Apps\sapisvr\HubOnSound]
+DefaultValue=%SystemRoot%\Resources\Themes\baseball\on.wav
+[AppEvents\Schemes\Apps\sapisvr\HubSleepSound]
+DefaultValue=%SystemRoot%\Resources\Themes\baseball\sleep.wav
+[AppEvents\Schemes\Apps\sapisvr\MisrecoSound]
+DefaultValue=%SystemRoot%\Resources\Themes\baseball\misrecognition.wav
+[AppEvents\Schemes\Apps\sapisvr\PanelSound]
+DefaultValue=%SystemRoot%\Resources\Themes\baseball\disambiguation panel.wav

@@ -1,0 +1,148 @@
+; Copyright © Microsoft Corp.
+
+[Theme]
+; Windows - IDS_THEME_DISPLAYNAME_AERO
+DisplayName=More Windows
+ThemeId={F436308E-06AC-4E94-8A1E-36F1A57701B6}
+
+; Computer - SHIDI_SERVER
+[CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\DefaultIcon]
+DefaultValue=%SystemRoot%\Resources\Themes\more windows\more windows.dll,1
+
+; UsersFiles - SHIDI_USERFILES
+[CLSID\{59031A47-3F72-44A7-89C5-5595FE6B30EE}\DefaultIcon]
+DefaultValue=%SystemRoot%\Resources\Themes\more windows\more windows.dll,0
+
+; Network - SHIDI_MYNETWORK
+[CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\DefaultIcon]
+DefaultValue=%SystemRoot%\Resources\Themes\more windows\more windows.dll,2
+
+; Recycle Bin - SHIDI_RECYCLERFULL SHIDI_RECYCLER
+[CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\DefaultIcon]
+Full=%SystemRoot%\Resources\Themes\more windows\more windows.dll,4
+Empty=%SystemRoot%\Resources\Themes\more windows\Recycle Bin Empty.ico
+
+[Control Panel\Cursors]
+AppStarting=%SystemRoot%\Resources\Themes\more windows\Working in Background.ani
+Arrow=%SystemRoot%\Resources\Themes\more windows\Normal Select.cur
+Crosshair=%SystemRoot%\Resources\Themes\more windows\Precision Select.cur
+Hand=
+Help=%SystemRoot%\Resources\Themes\more windows\Help Select.cur
+IBeam=%SystemRoot%\Resources\Themes\more windows\Text Select.cur
+No=%SystemRoot%\Resources\Themes\more windows\Unavailable.cur
+NWPen=%SystemRoot%\Resources\Themes\more windows\Handwriting.cur
+SizeAll=%SystemRoot%\Resources\Themes\more windows\Move.cur
+SizeNESW=%SystemRoot%\Resources\Themes\more windows\Diagonal Resize 2.cur
+SizeNS=%SystemRoot%\Resources\Themes\more windows\Vertical Resize.cur
+SizeNWSE=%SystemRoot%\Resources\Themes\more windows\Diagonal Resize 1.cur
+SizeWE=%SystemRoot%\Resources\Themes\more windows\Horizontal Resize.cur
+UpArrow=%SystemRoot%\Resources\Themes\more windows\Alternate Select.cur
+Wait=%SystemRoot%\Resources\Themes\more windows\Busy.ani
+DefaultValue=More Windows
+
+[Control Panel\Desktop]
+Wallpaper=%SystemRoot%\Resources\Themes\more windows\Wallpaper 95.JPG
+Pattern=
+MultimonBackgrounds=0
+PicturePosition=2
+WindowsSpotlight=0
+
+[VisualStyles]
+Path=%SystemRoot%\resources\themes\Aero\Aero.msstyles
+ColorStyle=NormalColor
+Size=NormalSize
+AutoColorization=0
+ColorizationColor=0XC40078D7
+SystemMode=Dark
+AppMode=Light
+VisualStyleVersion=10
+
+[boot]
+SCRNSAVE.EXE=
+
+[MasterThemeSelector]
+MTSM=RJSPBS
+
+[Sounds]
+; IDS_SCHEME_DEFAULT
+SchemeName=More Windows
+
+[AppEvents\Schemes\Apps\.Default\.Default]
+DefaultValue=%SystemRoot%\Resources\Themes\more windows\default sound.wav
+[AppEvents\Schemes\Apps\.Default\AppGPFault]
+DefaultValue=%SystemRoot%\Resources\Themes\more windows\program error.wav
+[AppEvents\Schemes\Apps\.Default\CriticalBatteryAlarm]
+DefaultValue=%SystemRoot%\Resources\Themes\more windows\critical battery alarm.WAV
+[AppEvents\Schemes\Apps\.Default\DeviceConnect]
+DefaultValue=%SystemRoot%\Resources\Themes\more windows\device connect.wav
+[AppEvents\Schemes\Apps\.Default\DeviceDisconnect]
+DefaultValue=%SystemRoot%\Resources\Themes\more windows\device disconnect.wav
+[AppEvents\Schemes\Apps\.Default\DeviceFail]
+DefaultValue=%SystemRoot%\Resources\Themes\more windows\device failed to connect.wav
+[AppEvents\Schemes\Apps\.Default\FaxBeep]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\LowBatteryAlarm]
+DefaultValue=%SystemRoot%\Resources\Themes\more windows\low battery alarm.WAV
+[AppEvents\Schemes\Apps\.Default\MailBeep]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\Maximize]
+DefaultValue=%SystemRoot%\Resources\Themes\more windows\maximize.wav
+[AppEvents\Schemes\Apps\.Default\MenuCommand]
+DefaultValue=%SystemRoot%\Resources\Themes\more windows\menu command.wav
+[AppEvents\Schemes\Apps\.Default\MenuPopup]
+DefaultValue=%SystemRoot%\Resources\Themes\more windows\menu popup.wav
+[AppEvents\Schemes\Apps\.Default\MessageNudge]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\Minimize]
+DefaultValue=%SystemRoot%\Resources\Themes\more windows\minimize.wav
+[AppEvents\Schemes\Apps\.Default\Notification.Default]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\Notification.IM]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\Notification.Mail]
+DefaultValue=%SystemRoot%\Resources\Themes\more windows\new mail notificatioon.WAV
+[AppEvents\Schemes\Apps\.Default\Notification.Proximity]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\Notification.Reminder]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\Notification.SMS]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\ProximityConnection]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\RestoreDown]
+DefaultValue=%SystemRoot%\Resources\Themes\more windows\restore down.wav
+[AppEvents\Schemes\Apps\.Default\RestoreUp]
+DefaultValue=%SystemRoot%\Resources\Themes\more windows\restore up.wav
+[AppEvents\Schemes\Apps\.Default\SystemAsterisk]
+DefaultValue=%SystemRoot%\Resources\Themes\more windows\asterisk.wav
+[AppEvents\Schemes\Apps\.Default\SystemExclamation]
+DefaultValue=%SystemRoot%\Resources\Themes\more windows\exclamation.wav
+[AppEvents\Schemes\Apps\.Default\SystemHand]
+DefaultValue=%SystemRoot%\Resources\Themes\more windows\critical stop.wav
+[AppEvents\Schemes\Apps\.Default\SystemNotification]
+DefaultValue=%SystemRoot%\Resources\Themes\more windows\system default.wav
+[AppEvents\Schemes\Apps\.Default\SystemQuestion]
+DefaultValue=%SystemRoot%\Resources\Themes\more windows\question.wav
+[AppEvents\Schemes\Apps\.Default\WindowsUAC]
+DefaultValue=
+[AppEvents\Schemes\Apps\Explorer\EmptyRecycleBin]
+DefaultValue=%SystemRoot%\Resources\Themes\more windows\empty recycle bin.wav
+[AppEvents\Schemes\Apps\Explorer\Navigating]
+DefaultValue=%SystemRoot%\Resources\Themes\more windows\start navigation.WAV
+[AppEvents\Schemes\Apps\sapisvr\DisNumbersSound]
+DefaultValue=%SystemRoot%\Resources\Themes\more windows\disambiguation numbers.wav
+[AppEvents\Schemes\Apps\sapisvr\HubOffSound]
+DefaultValue=%SystemRoot%\Resources\Themes\more windows\off.wav
+[AppEvents\Schemes\Apps\sapisvr\HubOnSound]
+DefaultValue=%SystemRoot%\Resources\Themes\more windows\on.wav
+[AppEvents\Schemes\Apps\sapisvr\HubSleepSound]
+DefaultValue=%SystemRoot%\Resources\Themes\more windows\sleep.wav
+[AppEvents\Schemes\Apps\sapisvr\MisrecoSound]
+DefaultValue=%SystemRoot%\Resources\Themes\more windows\misrecognition.wav
+[AppEvents\Schemes\Apps\sapisvr\PanelSound]
+DefaultValue=%SystemRoot%\Resources\Themes\more windows\disambiguation panel.wav
+[Slideshow]
+ImagesRootPIDL=qIAFA8BUg/E0gouOpBhoYjAArADMdmBAvMkOcBAAAAAAAAAAAAAAAAAAAAAAAAgVAEDAAAAAAI5WvbLEAcVauR2b3NHAABQCAQAAv77hPdHSTuF8O4CAAAA+EAAAAAQAAAAAAAAAAAAAAAAAAAAAscYbAcFApBgbAQGAvBwdAMHAAAgFAwFAxAAAAAAASuVSjCBASV2cvVncjV2cAQEAJAABA8uvH+02JN5WjpgLAAAAd3AAAAAABAAAAAAAAAAAAAAAAAAAAAzF9CgUAUGAzBwbAUHAyBwYAUGAzBAAAgBAUBQMAAAAAAwkbpTDQAAVoVWblNHAA4DAJAABA8uvH+02JN5W60gLAAAAf3AAAAAABAAAAAAAAAAAAAAAAAAAAAcA3AAVAgGAlBQbAUGAzBAAAYBA1DQMAAAAAAwkbBbAQAQTPJVRXlkfxAAAKBQCAQAAv7rkb10oTuluK4CAAAASKHAAAAQAAAAAAAAAAAAAAAAAAAAAEJ9KA0GAvBgcAUGAgAwdAkGAuBAZA8GA3BwcAAAAYAwkAAAAnAw7+WIAAAQMTB1U32pr/3IH/PUgMSIQ6M6ctkGAAAAZAAAAA8BAAAALAAAA3BQaA4GAkBwbAcHAzBgLAkGAtBQbAUGAyBwcAkGA2BQZAMGAvBgbAQHAyBwbAwGAwBQYA4GAlBAbA8FAjBwdAUDAuBQMAgGAyAAdAgHA5BQZAcHA5BAAAAAAAAAAAAAAYAAAAA
+
+Interval=86400000
+Shuffle=0

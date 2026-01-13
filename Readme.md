@@ -9,8 +9,9 @@ As from the January 2026, the Download Size for this Repo is : ** ?MB** ( Please
 
 __**Files and Folder Structure.**__
 
-**Images** **:** 
-All images i captured and found are located in these Listed Folders and are organized based on category. e.g. Peview and More.
+All images, cursors, icons, sounds are organized based on category. e.g. Peview and Themes and More.
+
+To use a themes you need to put the file and folder, in to the theme folder (C:\Windows\Resources\Themes) them go to your themes via personalise.
 
 
 ## __**Disclaimer**__

@@ -1,0 +1,124 @@
+; Copyright © Microsoft Corp.
+
+[Theme]
+; Windows - IDS_THEME_DISPLAYNAME_AERO
+DisplayName=Windows 11 Default
+ThemeId={1E3A5968-1F23-40FC-B91E-7F8A8865787E}
+
+; Computer - SHIDI_SERVER
+[CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\DefaultIcon]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 11 default\windows 11 default.dll,0
+
+; UsersFiles - SHIDI_USERFILES
+[CLSID\{59031A47-3F72-44A7-89C5-5595FE6B30EE}\DefaultIcon]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 11 default\windows 11 default.dll,1
+
+; Network - SHIDI_MYNETWORK
+[CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\DefaultIcon]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 11 default\windows 11 default.dll,2
+
+; Recycle Bin - SHIDI_RECYCLERFULL SHIDI_RECYCLER
+[CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\DefaultIcon]
+Full=%SystemRoot%\Resources\Themes\windows 11 default\windows 11 default.dll,4
+Empty=%SystemRoot%\Resources\Themes\windows 11 default\windows 11 default.dll,3
+
+[Control Panel\Cursors]
+AppStarting=%SystemRoot%\Cursors\Windows 11\aero\aero_working.ani
+Arrow=%SystemRoot%\Cursors\Windows 11\aero\aero_arrow.cur
+Crosshair=%SystemRoot%\Cursors\Windows 11\lcross.cur
+Hand=%SystemRoot%\Cursors\Windows 11\aero\aero_link.cur
+Help=%SystemRoot%\Cursors\Windows 11\aero\aero_helpsel.cur
+IBeam=%SystemRoot%\Cursors\Windows 11\libeam.cur
+No=%SystemRoot%\Cursors\Windows 11\aero\aero_unavail.cur
+NWPen=%SystemRoot%\Cursors\Windows 11\aero\aero_pen.cur
+SizeAll=%SystemRoot%\Cursors\Windows 11\aero\aero_move.cur
+SizeNESW=%SystemRoot%\Cursors\Windows 11\aero\aero_nesw.cur
+SizeNS=%SystemRoot%\Cursors\Windows 11\aero\aero_ns.cur
+SizeNWSE=%SystemRoot%\Cursors\Windows 11\aero\aero_nwse.cur
+SizeWE=%SystemRoot%\Cursors\Windows 11\aero\aero_ew.cur
+UpArrow=%SystemRoot%\Cursors\Windows 11\aero\aero_up.cur
+Wait=%SystemRoot%\Cursors\Windows 11\aero\aero_busy.ani
+DefaultValue=Windows 11 Default
+
+[Control Panel\Desktop]
+Wallpaper=%SystemRoot%\Resources\Themes\windows 11 default\wallpaper.jpg
+Pattern=
+MultimonBackgrounds=0
+PicturePosition=2
+WallpaperWriteTime=132668152940000000
+WindowsSpotlight=0
+
+[VisualStyles]
+Path=%SystemRoot%\resources\themes\Aero\Aero.msstyles
+ColorStyle=NormalColor
+Size=NormalSize
+AutoColorization=0
+ColorizationColor=0XC40078D7
+SystemMode=Dark
+AppMode=Light
+VisualStyleVersion=10
+
+[boot]
+SCRNSAVE.EXE=
+
+[MasterThemeSelector]
+MTSM=RJSPBS
+
+[Sounds]
+; IDS_SCHEME_DEFAULT
+SchemeName=Windows 11 Default
+
+[AppEvents\Schemes\Apps\.Default\.Default]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 11 default\default beep.wav
+[AppEvents\Schemes\Apps\.Default\CriticalBatteryAlarm]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 11 default\critical battery alarm.wav
+[AppEvents\Schemes\Apps\.Default\DeviceConnect]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 11 default\device connect.wav
+[AppEvents\Schemes\Apps\.Default\DeviceDisconnect]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 11 default\device disconnect.wav
+[AppEvents\Schemes\Apps\.Default\DeviceFail]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 11 default\device failed to connect.wav
+[AppEvents\Schemes\Apps\.Default\FaxBeep]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 11 default\new fax notification.wav
+[AppEvents\Schemes\Apps\.Default\LowBatteryAlarm]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 11 default\low battery alarm.wav
+[AppEvents\Schemes\Apps\.Default\MailBeep]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 11 default\desktop mail notification.wav
+[AppEvents\Schemes\Apps\.Default\MessageNudge]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 11 default\message nudge.wav
+[AppEvents\Schemes\Apps\.Default\Notification.Default]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 11 default\notification.wav
+[AppEvents\Schemes\Apps\.Default\Notification.IM]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 11 default\instant message notification.wav
+[AppEvents\Schemes\Apps\.Default\Notification.Mail]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 11 default\new mail notification.wav
+[AppEvents\Schemes\Apps\.Default\Notification.Proximity]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 11 default\nfc completion (1).wav
+[AppEvents\Schemes\Apps\.Default\Notification.Reminder]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 11 default\calendar reminder.wav
+[AppEvents\Schemes\Apps\.Default\Notification.SMS]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 11 default\new text message notification.wav
+[AppEvents\Schemes\Apps\.Default\ProximityConnection]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 11 default\nfc completion (2).wav
+[AppEvents\Schemes\Apps\.Default\SystemAsterisk]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 11 default\asterisk.wav
+[AppEvents\Schemes\Apps\.Default\SystemExclamation]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 11 default\exclamation.wav
+[AppEvents\Schemes\Apps\.Default\SystemHand]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 11 default\critical stop.wav
+[AppEvents\Schemes\Apps\.Default\SystemNotification]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 11 default\system notification.wav
+[AppEvents\Schemes\Apps\.Default\WindowsUAC]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 11 default\user account control.wav
+[AppEvents\Schemes\Apps\sapisvr\DisNumbersSound]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 11 default\disambiguation numbers.wav
+[AppEvents\Schemes\Apps\sapisvr\HubOffSound]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 11 default\off.wav
+[AppEvents\Schemes\Apps\sapisvr\HubOnSound]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 11 default\on.wav
+[AppEvents\Schemes\Apps\sapisvr\HubSleepSound]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 11 default\sleep.wav
+[AppEvents\Schemes\Apps\sapisvr\MisrecoSound]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 11 default\misrecognition.wav
+[AppEvents\Schemes\Apps\sapisvr\PanelSound]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 11 default\disambiguation panel.wav

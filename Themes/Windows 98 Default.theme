@@ -1,0 +1,130 @@
+; Copyright © Microsoft Corp.
+
+[Theme]
+; Windows - IDS_THEME_DISPLAYNAME_AERO
+DisplayName=Windows 98 Default
+ThemeId={DB127DC2-31F3-4A58-B5F2-24F3096C27B9}
+
+; Computer - SHIDI_SERVER
+[CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\DefaultIcon]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 98 default\windows 98 default.dll,0
+
+; UsersFiles - SHIDI_USERFILES
+[CLSID\{59031A47-3F72-44A7-89C5-5595FE6B30EE}\DefaultIcon]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 98 default\windows 98 default.dll,1
+
+; Network - SHIDI_MYNETWORK
+[CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\DefaultIcon]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 98 default\windows 98 default.dll,2
+
+; Recycle Bin - SHIDI_RECYCLERFULL SHIDI_RECYCLER
+[CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\DefaultIcon]
+Full=%SystemRoot%\Resources\Themes\windows 98 default\windows 98 default.dll,4
+Empty=%SystemRoot%\Resources\Themes\windows 98 default\windows 98 default.dll,3
+
+[Control Panel\Cursors]
+AppStarting=%SystemRoot%\Cursors\Windows 98\WAIT_1.CUR
+Arrow=%SystemRoot%\Cursors\Windows 98\ARROW_1.CUR
+Crosshair=%SystemRoot%\Cursors\Windows 98\CROSS_1.CUR
+Hand=
+Help=%SystemRoot%\Cursors\Windows 98\HELP_1.CUR
+IBeam=%SystemRoot%\Cursors\Windows 98\BEAM_1.CUR
+No=%SystemRoot%\Cursors\Windows 98\NO_1.CUR
+NWPen=%SystemRoot%\Cursors\Windows 98\PEN_1.CUR
+SizeAll=%SystemRoot%\Cursors\Windows 98\MOVE_1.CUR
+SizeNESW=%SystemRoot%\Cursors\Windows 98\SIZE1_1.CUR
+SizeNS=%SystemRoot%\Cursors\Windows 98\SIZE4_1.CUR
+SizeNWSE=%SystemRoot%\Cursors\Windows 98\SIZE2_1.CUR
+SizeWE=%SystemRoot%\Cursors\Windows 98\SIZE3_1.CUR
+UpArrow=%SystemRoot%\Cursors\Windows 98\UP_1.CUR
+Wait=%SystemRoot%\Cursors\Windows 98\BUSY_1.CUR
+DefaultValue=Windows 98 Default
+
+[Control Panel\Desktop]
+Wallpaper=%SystemRoot%\Resources\Themes\windows 98 default\wallpaper.png
+Pattern=
+MultimonBackgrounds=0
+PicturePosition=1
+WallpaperWriteTime=134097748300000000
+WindowsSpotlight=0
+
+[VisualStyles]
+Path=%SystemRoot%\resources\themes\Aero\Aero.msstyles
+ColorStyle=NormalColor
+Size=NormalSize
+AutoColorization=0
+ColorizationColor=0XC40078D7
+SystemMode=Dark
+AppMode=Light
+VisualStyleVersion=10
+
+[boot]
+SCRNSAVE.EXE=
+
+[MasterThemeSelector]
+MTSM=RJSPBS
+
+[Sounds]
+; IDS_SCHEME_DEFAULT
+SchemeName=Windows 98 Default
+
+[AppEvents\Schemes\Apps\.Default\.Default]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 98 default\default sound.WAV
+[AppEvents\Schemes\Apps\.Default\CriticalBatteryAlarm]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 98 default\critical battery alarm.WAV
+[AppEvents\Schemes\Apps\.Default\DeviceConnect]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 98 default\device connect.wav
+[AppEvents\Schemes\Apps\.Default\DeviceDisconnect]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 98 default\device disconnect.wav
+[AppEvents\Schemes\Apps\.Default\DeviceFail]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 98 default\device failed to connect.wav
+[AppEvents\Schemes\Apps\.Default\FaxBeep]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\LowBatteryAlarm]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 98 default\low battery alarm.WAV
+[AppEvents\Schemes\Apps\.Default\MailBeep]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\MessageNudge]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\Notification.Default]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\Notification.IM]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\Notification.Mail]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 98 default\new mail notification.WAV
+[AppEvents\Schemes\Apps\.Default\Notification.Proximity]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\Notification.Reminder]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\Notification.SMS]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\ProximityConnection]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\SystemAsterisk]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 98 default\asterisk.WAV
+[AppEvents\Schemes\Apps\.Default\SystemExclamation]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 98 default\exclamation.WAV
+[AppEvents\Schemes\Apps\.Default\SystemHand]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 98 default\critical stop.WAV
+[AppEvents\Schemes\Apps\.Default\SystemNotification]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\SystemQuestion]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 98 default\question.WAV
+[AppEvents\Schemes\Apps\.Default\WindowsUAC]
+DefaultValue=
+[AppEvents\Schemes\Apps\Explorer\EmptyRecycleBin]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 98 default\empty recycle bin.WAV
+[AppEvents\Schemes\Apps\Explorer\Navigating]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 98 default\start navigation.WAV
+[AppEvents\Schemes\Apps\sapisvr\DisNumbersSound]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 98 default\disambiguation numbers.wav
+[AppEvents\Schemes\Apps\sapisvr\HubOffSound]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 98 default\off.wav
+[AppEvents\Schemes\Apps\sapisvr\HubOnSound]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 98 default\on.wav
+[AppEvents\Schemes\Apps\sapisvr\HubSleepSound]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 98 default\sleep.wav
+[AppEvents\Schemes\Apps\sapisvr\MisrecoSound]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 98 default\misrecognition.wav
+[AppEvents\Schemes\Apps\sapisvr\PanelSound]
+DefaultValue=%SystemRoot%\Resources\Themes\windows 98 default\disambiguation panel.wav

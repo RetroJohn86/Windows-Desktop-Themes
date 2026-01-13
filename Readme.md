@@ -1,0 +1,32 @@
+# __**Windows Desktop Theme's**__
+
+
+**+** __**Repository Info**__
+
+As from the January 2026, the Download Size for this Repo is : ** ?MB** ( Please Note The Size Can Change At Anytime Due Too Updates. )
+**This Repository is of all windows desktop themes for Windows 10 and Windows 11**
+
+
+__**Files and Folder Structure.**__
+
+**Images** **:** 
+All images i captured and found are located in these Listed Folders and are organized based on category. e.g. Peview and More.
+
+
+## __**Disclaimer**__
+
+**This repo is for educational use only.**
+
+**All content found within this repo is the property of Microsoft.**
+
+**Retro John 86 did/did not modify images found within this repo.**
+
+**Please respect the original source material.**
+
+
+## __**Social Media**__
+
+You Can Follow Me and Chat via these Links. [Discord](https://discord.com/invite/XWphsEk), [TwitterX](https://x.com/Retro86Official), [Facebook](https://www.facebook.com/Retro86Official), [Instagram](https://www.instagram.com/retrojohn86), [YouTube](https://www.youtube.com/channel/UCUw02MHKeo3mGfNDMvBn_eQ), [Twitch](https://www.twitch.tv/retrojohn86), [Archive](https://archive.org/details/@retro_john_86), [Reddit](https://www.reddit.com/user/RetroJohn86/) and [BLOG Site](https://retrojohn86.blogspot.com/)
+
+
+__**Thank You and Enjoy...**__

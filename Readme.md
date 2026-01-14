@@ -3,7 +3,7 @@
 
 **+** __**Repository Info**__
 
-As from the January 2026, the Download Size for this Repo is : ** ?MB** ( Please Note The Size Can Change At Anytime Due Too Updates. )
+As from the January 2026, the Download Size for this Repo is : ** 73.4 MB** ( Please Note The Size Can Change At Anytime Due Too Updates. )
 **This Repository is of all windows desktop themes for Windows 10 and Windows 11**
 
 
